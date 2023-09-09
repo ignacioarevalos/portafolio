@@ -1,7 +1,35 @@
+<script setup lang="ts">
+  useSeoMeta({
+    title: "Portafolio Web Ignacio Arévalo",
+    ogTitle: "Portafolio Web Ignacio Arévalo",
+    description: "Portafolio personal de Ignacio Arévalo, Full Stack Developer",
+    ogDescription:
+      "Portafolio personal de Ignacio Arévalo, Full Stack Developer",
+  });
+  useHead({
+    title: "Full Stack Dev",
+    htmlAttrs: {
+      lang: "es",
+    },
+  });
+</script>
 <template>
-  <div>
-    <h1>Welcome to the homepage</h1>
-    <AppAlert> This is an auto-imported component </AppAlert>
-    <li><NuxtLink to="/about">About</NuxtLink></li>
-  </div>
+  <section
+    class="bg-white px-4 w-fit flex rounded-xl justify-center items-center py-3 md:p-5 lg:p-6 mx-auto lg:ml-0"
+  >
+    <div
+      class="font-semibold h-fit text-xl sm:text-2xl md:text-3xl text-black lg:text-5xl lg:leading-"
+    >
+      <span>Hola!</span>
+
+      <div class="flex items-baseline">
+        <span class="mr-2">Mi nombre es</span>
+        <h1 class="font-bold text-blue-700">Ignacio Arévalo</h1>
+      </div>
+      <div class="flex items-baseline">
+        <span class="mr-2">y soy</span>
+        <h2 class="font-bold text-orange-700">Desarrollador Full-Stack</h2>
+      </div>
+    </div>
+  </section>
 </template>

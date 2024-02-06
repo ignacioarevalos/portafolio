@@ -4,7 +4,7 @@
   import { TransitionRoot, TransitionChild } from "@headlessui/vue";
   import { ref } from "@vue/runtime-core";
 
-  const show = ref(true);
+  const show = ref<boolean>(true);
   const redireccion = (e: string) => {
     setTimeout(() => {
       document.location.href = e;
@@ -84,7 +84,7 @@
             <slot />
           </TransitionChild>
           <TransitionChild
-            enter="transition ease-in-out duration-1000 delay-700"
+            enter="transition ease-in-out duration-[1700ms] delay-700"
             enter-from="translate-x-[200%]"
             enter-to="translate-x-0"
             leave="transition ease-in-out duration-700"

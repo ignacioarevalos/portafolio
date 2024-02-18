@@ -12,7 +12,7 @@
       >
         <img
           class="lg:hidden h-10 w-10 sm:h-12 sm:w-12 md:h-14 md:w-14"
-          src="~assets/svgs/IA.svg"
+          src="~assets/svgs/Logo.svg"
           alt="Logo"
         />
       </a>
@@ -54,7 +54,7 @@
       </a>
     </div>
     <p
-      class="text-xs lg:text-sm text-center font-medium flex-col flex lg:pl-20 lg:flex-row mx-auto"
+      class="text-xs lg:text-sm text-center font-medium flex-col flex lg:pl-20 lg:flex-row mx-auto gap-x-1"
     >
       <span>© 2023 Ignacio Arévalo. </span>
       <span> All rights reserved. </span>

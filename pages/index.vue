@@ -20,15 +20,21 @@
     <div
       class="font-semibold h-fit text-xl sm:text-2xl md:text-3xl text-black lg:text-5xl lg:leading-"
     >
-      <span>Hola!</span>
-
+      <span aria-label="Hola!">Hola!</span>
       <div class="flex items-baseline">
-        <span class="mr-2">Mi nombre es</span>
-        <h1 class="font-bold text-blue-700">Ignacio Arévalo</h1>
+        <span class="mr-2" aria-label="Mi nombre es">Mi nombre es</span>
+        <h1 class="font-bold text-blue-700" aria-label="Ignacio Arévalo">
+          Ignacio Arévalo
+        </h1>
       </div>
       <div class="flex items-baseline">
-        <span class="mr-2">y soy</span>
-        <h2 class="font-bold text-orange-700">Desarrollador Full-Stack</h2>
+        <span class="mr-2" aria-label="y soy">y soy</span>
+        <h2
+          class="font-bold text-orange-700"
+          aria-label="Desarrollador Full-Stack"
+        >
+          Desarrollador Full-Stack
+        </h2>
       </div>
     </div>
   </section>

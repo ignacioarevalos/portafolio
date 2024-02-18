@@ -2,13 +2,12 @@
   useSeoMeta({
     title: "Portafolio Web Ignacio Arévalo",
     ogTitle: "Portafolio Web Ignacio Arévalo",
-    description: "Portafolio personal de Ignacio Arévalo, Full Stack Developer",
-    ogDescription:
-      "Portafolio personal de Ignacio Arévalo, Full Stack Develope",
+    description: "Sección de blogs de Ignacio Arévalo, Full Stack Developer",
+    ogDescription: "Sección de blogs de Ignacio Arévalo, Full Stack Developer",
     ogImage: "https://example.com/image.png",
   });
   useHead({
-    title: "Portafolio Web Ignacio Arévalo",
+    title: "Blogs",
     htmlAttrs: {
       lang: "es",
     },

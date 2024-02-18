@@ -2,13 +2,14 @@
   useSeoMeta({
     title: "Portafolio Web Ignacio Arévalo",
     ogTitle: "Portafolio Web Ignacio Arévalo",
-    description: "Portafolio personal de Ignacio Arévalo, Full Stack Developer",
+    description:
+      "Hola! Soy Ignacio Arévalo, desarrollador Full Stack con 3 años de experiencia.",
     ogDescription:
-      "Portafolio personal de Ignacio Arévalo, Full Stack Develope",
+      "Hola! Soy Ignacio Arévalo, desarrollador Full Stack con 3 años de experiencia.",
     ogImage: "https://example.com/image.png",
   });
   useHead({
-    title: "Portafolio Web Ignacio Arévalo",
+    title: "Sobre mí",
     htmlAttrs: {
       lang: "es",
     },
